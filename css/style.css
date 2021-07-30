@@ -470,9 +470,13 @@ p,
 }
 
 .social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
   text-decoration: none;
-  display: block;
-  padding: 12px;
+  /* padding: 12px; */
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
